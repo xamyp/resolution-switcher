@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Resolution Switcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+    <div class="row">
+        <label for="screen" data-i18n="Screen">Écran</label>
+        <select id="screen"></select>
+    </div>
+    <div class="info" id="current">…</div>
+
+    <h3 data-i18n="Cycle">Résolutions du cycle</h3>
+    <ul id="list"></ul>
+    <p class="empty" id="empty" data-i18n="EmptyList">Aucune résolution. Ajoutez-en avec « + ».</p>
+
+    <div class="add">
+        <select id="modeSelect"></select>
+        <button id="addBtn" class="plus" title="Ajouter">+</button>
+    </div>
+
+    <h3 data-i18n="Options">Options</h3>
+    <div class="row">
+        <label for="persist" data-i18n="Apply">Application</label>
+        <select id="persist">
+            <option value="1" data-i18n="Permanent">Comme Windows (permanent)</option>
+            <option value="0" data-i18n="Temporary">Temporaire (jusqu’au redémarrage)</option>
+        </select>
+    </div>
+    <div class="row">
+        <label for="scaling" data-i18n="Scaling">Mise à l’échelle</label>
+        <select id="scaling">
+            <option value="default" data-i18n="ScaleDefault">Laisser Windows décider</option>
+            <option value="stretch" data-i18n="ScaleStretch">Étirer (plein écran)</option>
+            <option value="center" data-i18n="ScaleCenter">Centrer (bandes noires)</option>
+        </select>
+    </div>
+
+    <h3 data-i18n="Original">Résolution d’origine</h3>
+    <div class="info" id="original">…</div>
+    <div class="buttons">
+        <button id="restoreBtn" data-i18n="Restore">Restaurer</button>
+        <button id="setOriginalBtn" data-i18n="SetOriginal">Mémoriser l’actuelle</button>
+    </div>
+    <p class="hint" data-i18n="Hint">Appui court : mode suivant. Appui long : retour à la résolution d’origine.</p>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

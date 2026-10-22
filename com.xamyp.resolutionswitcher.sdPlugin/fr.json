@@ -1,0 +1,10 @@
+{
+  "Name": "Resolution Switcher",
+  "Description": "Change la résolution et la fréquence de l’écran d’une seule touche.",
+  "Category": "Resolution Switcher",
+  "com.xamyp.resolutionswitcher.cycle": {
+    "Name": "Cycle de résolutions",
+    "Tooltip": "Appui court : mode suivant. Appui long : retour à la résolution d’origine."
+  },
+  "Localization": {}
+}

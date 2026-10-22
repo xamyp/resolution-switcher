@@ -1,0 +1,53 @@
+{
+  "Actions": [
+    {
+      "Icon": "static/action.png",
+      "Name": "Cycle resolution",
+      "DisableAutomaticStates": true,
+      "States": [
+        {
+          "Image": "static/key.png",
+          "TitleAlignment": "bottom",
+          "FontSize": "10",
+          "ShowTitle": false
+        }
+      ],
+      "Settings": {
+        "screen": "",
+        "modes": [],
+        "persist": true,
+        "scaling": "default"
+      },
+      "Controllers": [
+        "Keypad"
+      ],
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "Tooltip": "Short press: next resolution / refresh rate. Long press: back to the original.",
+      "UUID": "com.xamyp.resolutionswitcher.cycle",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    }
+  ],
+  "SDKVersion": 1,
+  "Author": "Xamyp",
+  "Name": "Resolution Switcher",
+  "Icon": "static/plugin.png",
+  "CodePathWin": "plugin/index.js",
+  "Description": "Switch your screen resolution and refresh rate with one key. Build your own cycle list from the modes Windows reports.",
+  "Category": "Resolution Switcher",
+  "CategoryIcon": "static/category.png",
+  "Version": "1.0.0",
+  "URL": "https://github.com/xamyp/resolution-switcher",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "3.10.188.226"
+  },
+  "Nodejs": {
+    "Version": "20"
+  }
+}

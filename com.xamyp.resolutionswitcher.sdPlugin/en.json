@@ -1,0 +1,10 @@
+{
+  "Name": "Resolution Switcher",
+  "Description": "Switch screen resolution and refresh rate with one key.",
+  "Category": "Resolution Switcher",
+  "com.xamyp.resolutionswitcher.cycle": {
+    "Name": "Cycle resolution",
+    "Tooltip": "Short press: next resolution / refresh rate. Long press: back to the original."
+  },
+  "Localization": {}
+}

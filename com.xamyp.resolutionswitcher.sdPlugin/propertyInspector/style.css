@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 8px 10px; background: #2d2d2d; color: #d8d8d8;
+       font: 12px "Segoe UI", Arial, sans-serif; }
+::-webkit-scrollbar { display: none; }
+h3 { margin: 14px 0 6px; font-size: 12px; font-weight: 600; color: #fff;
+     border-bottom: 1px solid #444; padding-bottom: 4px; }
+.row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.row label { flex: 0 0 95px; color: #aaa; }
+select, button { font: inherit; color: #e8e8e8; background: #3d3d3d;
+                 border: 1px solid #555; border-radius: 3px; height: 26px; }
+select { flex: 1; min-width: 0; padding: 0 4px; }
+button { cursor: pointer; padding: 0 10px; }
+button:hover { background: #4a4a4a; }
+.info { color: #8fd3ff; margin: 2px 0 4px; }
+ul { list-style: none; margin: 0; padding: 0; }
+li { display: flex; align-items: center; gap: 4px; padding: 4px 6px; margin-bottom: 3px;
+     background: #383838; border-radius: 3px; }
+li.active { outline: 1px solid #00c8ff; }
+li span { flex: 1; }
+li button { height: 22px; padding: 0 7px; }
+li button.del:hover { background: #8a2b2b; }
+.empty { color: #888; font-style: italic; margin: 4px 0; }
+.add { display: flex; gap: 6px; margin-top: 6px; }
+.plus { font-size: 16px; font-weight: bold; width: 34px; padding: 0; background: #0b6e99; border-color: #0b6e99; }
+.plus:hover { background: #0e88bd; }
+.buttons { display: flex; gap: 6px; }
+.buttons button { flex: 1; }
+.hint { color: #888; margin-top: 10px; line-height: 1.4; }
